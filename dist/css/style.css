@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heroSection{
+    margin: 0px;
+}
+
+header{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+  
+.navigationWrapper a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+    
+  
+.navigationWrapper .icon {
+    display: none;
+}
+  
+@media screen and (max-width: 600px) {
+    .navigationWrapper a:not(:first-child) {display: none;}
+    .navigationWrapper a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .navigationWrapper.responsive {position: relative;}
+    .navigationWrapper.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navigationWrapper.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+.siteLogo{
+    float: left;
+    height: 50px;
+}
+
+.navigationWrapper{
+    float: right;
+}
+
+.heroSection{
+    margin-top: -40px;
+    height: 70vh;
+    background: url('/dist/img/heroBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.centerVerticalHero {
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.floatLeft{
+    float: left !important;
+    width: 50%;
+}
+
+.floatRight{
+    float: right !important;
+    width: 50%;
+}
+
+.content{
+    height: 30vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.heading{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+}
+
+.sectionImg{
+    height: 25vw;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
