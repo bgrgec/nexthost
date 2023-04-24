@@ -68,7 +68,7 @@ header{
 .heroSection{
     margin-top: -40px;
     height: 70vh;
-    background: url('/dist/img/heroBackground.png');
+    background: url('../../dist/img/heroBackground.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 40px;
